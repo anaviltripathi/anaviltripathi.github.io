@@ -1,7 +1,7 @@
-Lee Mendelowitz's blog
+Anavil Tripathi's blog
 ==============
 
-Repo for managing the content and deployment of my [blog](https://leemendelowitz.github.io/blog/). This repo has a Makefile which will publish content to the gh-pages branch of this repo.
+Repo for managing the content and deployment of my [blog](https://anaviltripthi.github.io/blog/). This repo has a Makefile which will publish content to the gh-pages branch of this repo.
 
 This I how I set everything up for myself. You can follow similar steps to get your own blog up and running.
 
@@ -44,4 +44,4 @@ make serve
 ```bash
 make github
 ```
-Now checkout the [blog url](http://leemendelowitz.github.io/blog/).
+Now checkout the [blog url](http://anaviltripathi.github.io/blog/).
