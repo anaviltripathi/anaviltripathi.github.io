@@ -2,45 +2,34 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Lee Mendelowitz'
-SITENAME = u'Lee On Coding'
-SITEURL = 'http://localhost:8000'
+AUTHOR = u'Anavil Tripathi'
+SITENAME = u'New Shit'
+SITEURL = ''
 
-TIMEZONE = 'Europe/Paris'
+PATH = 'content'
+
+TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = u'en'
-
-GOOGLE_ANALYTICS = "UA-44545448-1"
-THEME = "/Users/lee/pelican-themes/pure-single/"
-ARTICLE_EXCLUDES = ['pages', 'computing_for_data_analysis/rmarkdown']
-STATIC_PATHS = ['images', 'computing_for_data_analysis/figure/',
-                'computing_for_data_analysis/rmarkdown/',
-                'code']
-
-TAGLINE = "My blog about coding and stuff."
-PROFILE_IMG_URL = "images/twitter_img.png"
-COVER_IMG_URL = "images/ss3.psd.png"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/lmendy7'),
-          ('github', 'https://github.com/LeeMendelowitz'),)
-TWITTER_USERNAME = "lmendy7"
-GITHUB_URL = "https://github.com/LeeMendelowitz/blog"
-DISQUS_SITENAME = "leeoncoding"
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
-
-PLUGINS = [
-  'pelican_gist'
-]
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
